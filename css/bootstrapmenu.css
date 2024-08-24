@@ -12,6 +12,7 @@ Last update : August 24, 2024
 =================================*/
 nav.dwk_bootstrap_menu img {
   max-width: 100%;
+  border-radius: 4px;
 }
 nav.dwk_bootstrap_menu .dropdown.megamenu-fw {
   position: static;
@@ -42,12 +43,13 @@ nav.dwk_bootstrap_menu .dropdown.megamenu-fw .dropdown-menu {
   left: 0;
   right: 0;
 }
+.dropdown-toggle::after {
+  border: none;
+}
 /* MEGAMENU STYLE 1 */
-
 .mm-style1 .menu-col li a img {
   float: left;
-width: 40%;
-border-radius: 4px;
+  width: 40%;
 }
 .mm-style1 .mm-style1-content {
   float: left;
@@ -56,12 +58,19 @@ border-radius: 4px;
   font-size: 14px;
   line-height: 18px;
 }
-.mm-style1 .mm-style1-content p {
-  margin-bottom: 0;
-}
-.mm-style1 .mm-style1-content h5 {
+.megamenu-content p {
   margin-bottom: 0;
   font-size: 14px;
+  line-height: 18px;
+}
+.megamenu-content h5 {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.mm-form input, .mm-form textarea {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  margin: 5px 0;
 }
 /* Navbar
 =================================*/
@@ -1205,7 +1214,6 @@ body.on-side .wrap-sticky nav.navbar.dwk_bootstrap_menu.sticked {
     width: 100%;
     border-bottom: solid 1px #e0e0e0;
     padding: 10px 0;
-    border-top: solid 1px #e0e0e0;
     margin-bottom: -1px;
   }
 
@@ -1572,6 +1580,9 @@ body.on-side .wrap-sticky nav.navbar.dwk_bootstrap_menu.sticked {
 }
 
 @media (max-width: 767px) {
+  nav.navbar.dwk_bootstrap_menu {
+    border-bottom: none;
+  }
   nav.navbar.dwk_bootstrap_menu .navbar-header {
     padding-left: 15px;
     padding-right: 15px;

@@ -438,7 +438,7 @@ nav.navbar ul.nav > li > a:hover,
 nav.navbar ul.nav > li.active > a:hover,
 nav.navbar ul.nav li.active > a,
 nav.navbar li.dropdown ul.dropdown-menu > li a:hover{
-    color: #f43438;
+    color: #6f42c1;
 }
 
 nav.navbar.navbar-transparent ul.nav > li > a:hover,
@@ -447,13 +447,13 @@ nav.navbar ul.nav li.scroll.active > a,
 nav.navbar.navbar-dark ul.nav li.dropdown ul.dropdown-menu  > li > a:hover,
 nav.navbar ul.nav li.dropdown.on > a,
 nav.navbar-dark ul.nav li.dropdown.on > a{
-    color: #f43438 !important;
+    color: #6f42c1 !important;
 }
 
 @media(max-width:920px){
     nav.navbar .dropdown .megamenu-content .col-menu ul > li > a:hover,
     nav.navbar.navbar-dark .dropdown .megamenu-content .col-menu .title:hover{
-        color: #f43438 !important;
+        color: #6f42c1 !important;
     }
 }
 
@@ -461,11 +461,11 @@ nav.navbar-dark ul.nav li.dropdown.on > a{
 Border
 =========================== */
 ul.cart-list > li.total > .btn{
-    border-color: #f43438;
+    border-color: #6f42c1;
 }
 
 nav.navbar li.dropdown ul.dropdown-menu{
-    border-top-color: #f43438 !important;
+    border-top-color: #6f42c1 !important;
 }
 
 /*
@@ -475,7 +475,7 @@ ul.cart-list > li.total > .btn,
 .attr-nav > ul > li > a span.badge,
 nav.navbar .share ul > li > a:hover,
 nav.navbar .share ul > li > a:focus{
-    background-color: #f43438;
+    background-color: #6f42c1;
 }
 
 ul.cart-list > li.total > .btn:hover,
